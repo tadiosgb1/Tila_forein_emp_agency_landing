@@ -44,7 +44,7 @@
             <!-- logo image — save the provided logo as src/assets/img/agency-logo.png -->
             <img
               v-if="!logoError"
-              src="../../../assets/img/agency-logo.png"
+              src="../../../assets/img/agency-logo.jpeg"
               alt="Tila Foreign Employment Agency Logo"
               class="relative w-12 h-12 rounded-full object-contain bg-white ring-2 ring-white shadow-lg group-hover:scale-105 transition-transform duration-300 p-0.5"
               @error="logoError = true"
