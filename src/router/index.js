@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from '../views/opened/landing/Home.vue'
 
 import About from  '../views/opened/landing/about.vue'
-import Products from  '../views/opened/landing/products.vue'
+// import Products from  '../views/opened/landing/products.vue'
 import NewsEvents from '../views/opened/landing/NewsEvents.vue'
 import ContactPage from '../views/opened/landing/ContactPage.vue'
 
@@ -33,12 +33,12 @@ const routes = [
   },
 
 
-    {
-    path: "/products", name: "/products",
-    component: Products,
-    meta:
-      { requiresGuest: true }
-  },
+  //   {
+  //   path: "/products", name: "/products",
+  //   component: Products,
+  //   meta:
+  //     { requiresGuest: true }
+  // },
   {
     path: "/news-events", name: "/news-events",
     component: NewsEvents,
