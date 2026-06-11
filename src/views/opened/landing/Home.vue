@@ -3,7 +3,7 @@
     <Header @open-login="showLogin = true" @open-register="showRegister = true" />
 
   <Hero />
-    ══════════════════════════════════════════════════════════ -->
+  
     <section class="py-10 bg-gray-50 border-y border-gray-100">
       <div class="max-w-7xl mx-auto px-6">
         <p class="text-center text-xs font-bold uppercase tracking-widest text-gray-400 mb-6">We Place Workers In These Destinations</p>
@@ -17,9 +17,6 @@
       </div>
     </section>
 
-    <!-- ══════════════════════════════════════════════════════════
-         ABOUT SECTION
-    ══════════════════════════════════════════════════════════ -->
     <section class="py-28 bg-white overflow-hidden">
       <div class="max-w-7xl mx-auto px-6">
         <div class="flex flex-col lg:flex-row items-center gap-16">
@@ -63,9 +60,7 @@
       </div>
     </section>
 
-    <!-- ══════════════════════════════════════════════════════════
-         HOW IT WORKS
-    ══════════════════════════════════════════════════════════ -->
+   
     <section class="py-28 bg-gray-50">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-20 reveal-up">
@@ -94,9 +89,7 @@
       </div>
     </section>
 
-    <!-- ══════════════════════════════════════════════════════════
-         SERVICES (id="services" for nav)
-    ══════════════════════════════════════════════════════════ -->
+  
     <section id="services" class="py-28 bg-white scroll-mt-24">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-20 reveal-up">
@@ -119,9 +112,10 @@
       </div>
     </section>
 
-    <!-- ══════════════════════════════════════════════════════════
-         JOB CATEGORIES (dark section)
-    ══════════════════════════════════════════════════════════ -->
+
+    <PopularPartners />
+    <Gallery />
+  
     <section class="py-28 bg-[#0a1f44] relative overflow-hidden">
       <div class="absolute inset-0 pointer-events-none">
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-amber-500/5 rounded-full blur-[120px]"></div>
@@ -256,14 +250,17 @@
 
 <script>
 import Header from './header.vue';
-import Hero from './components/HeroCarousel.vue'
 import Footer from './footer.vue';
+
+import Hero from './components/HeroCarousel.vue'
+import Gallery from './components/gallery.vue'
+import PopularPartners from './PopularPartners.vue'; // Update path if needed
 import LoginModal from '@/components/AuthModal.vue';
 import RegisterModal from '@/components/RegisterModal.vue';
 
 export default {
   name: 'HomePage',
-  components: { Header, Footer, LoginModal, RegisterModal,Hero },
+  components: { Header, Footer, LoginModal, RegisterModal,Hero,PopularPartners,Gallery },
 
   data() {
     return {
