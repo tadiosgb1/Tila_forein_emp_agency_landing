@@ -79,7 +79,7 @@
         </nav>
 
         <!-- Desktop CTA buttons -->
-        <div class="hidden md:flex items-center gap-3">
+        <!-- <div class="hidden md:flex items-center gap-3">
           <button
             @click="$emit('open-login')"
             class="px-5 py-2 text-gray-600 hover:text-blue-700 text-xs font-semibold uppercase tracking-wider rounded-lg hover:bg-blue-50 transition-all duration-200 border border-gray-200 hover:border-blue-200"
@@ -93,7 +93,7 @@
             <i class="fas fa-plane-departure text-[10px]"></i>
             Apply Now
           </button>
-        </div>
+        </div> -->
 
         <!-- Mobile hamburger -->
         <button
@@ -170,8 +170,6 @@ export default {
       logoError: false,
       navLinks: [
         { name: 'Home',        path: '/' },
-        { name: 'Services',    path: '/#services' },
-        { name: 'Job Openings', path: '/jobs' },
         { name: 'About Us',    path: '/about' },
         { name: 'News',        path: '/news-events' },
         { name: 'Contact',     path: '/contact' },
