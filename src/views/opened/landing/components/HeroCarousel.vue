@@ -140,11 +140,12 @@
 </template>
 
 <script>
-import bg1 from '@/assets/img/hero/bg1.jpg';
-import bg2 from '@/assets/img/hero/bg2.jpg';
-import bg3 from '@/assets/img/hero/bg3.jpg';
-import bg4 from '@/assets/img/hero/bg4.jpg';
-
+import h1 from '@/assets/img/h1.PNG';
+import h2 from '@/assets/img/h2.PNG';
+import h3 from '@/assets/img/h3.PNG';
+import h4 from '@/assets/img/h4.PNG';
+import h5 from '@/assets/img/h5.PNG';
+import h6 from '@/assets/img/h6.jpg';
 export default {
   name: 'HeroCarousel',
   emits: ['open-apply'],
@@ -158,7 +159,7 @@ export default {
       slides: [
         {
           id: 1,
-          img: bg1,
+          img: h1,
           badge: 'Licensed Foreign Employment Agency · Since 2010',
           heading: 'Your Gateway to',
           highlight: 'Global Opportunities',
@@ -167,7 +168,7 @@ export default {
         },
         {
           id: 2,
-          img: bg2,
+          img: h2,
           badge: 'Verified Employers · 15+ Destinations',
           heading: 'Safe. Legal.',
           highlight: 'Life-Changing Work.',
@@ -176,7 +177,7 @@ export default {
         },
         {
           id: 3,
-          img: bg3,
+          img: h3,
           badge: '5,000+ Workers Successfully Placed',
           heading: 'Build a Better Future',
           highlight: 'for Your Family',
@@ -185,7 +186,7 @@ export default {
         },
         {
           id: 4,
-          img: bg4,
+          img: h4,
           badge: 'End-to-End Support · Visa & Documentation',
           heading: 'We Handle the',
           highlight: 'Paperwork. You Fly.',

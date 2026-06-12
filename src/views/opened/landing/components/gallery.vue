@@ -104,13 +104,13 @@
 </template>
 
 <script>
-import g1 from '../../../../assets/img/g1.PNG';
-import g2 from '../../../../assets/img/g2.PNG';
-import g3 from '../../../../assets/img/g3.PNG';
-import g4 from '../../../../assets/img/g4.PNG';
-import g5 from '../../../../assets/img/g5.PNG';
+import g1 from '../../../../assets/img/g1.jpg';
+import g2 from '../../../../assets/img/g2.jpg';
+import g3 from '../../../../assets/img/g3.jpg';
+import g4 from '../../../../assets/img/g4.jpg';
+import g5 from '../../../../assets/img/g5.jpg';
 import g6 from '../../../../assets/img/g6.jpg';
-
+import g7 from '../../../../assets/img/g7.jpg';
 export default {
   name: 'ProfessionalGallery',
   data() {
@@ -157,12 +157,19 @@ export default {
           title: 'Travel Preparation Portals',
           desc: 'Finalizing applicant-covered routing ticketing itineraries before standard departure groups.'
         },
-        {
-          src: g6,
-          alt: 'Gallery Image 6',
-          tag: 'Partnerships',
-          title: 'International Network Summits',
-          desc: 'Expanding overseas lines to open secured job markets across fully certified channels.'
+            {
+              src: g6,
+              alt: 'Gallery Image 6',
+              tag: 'Partnerships',
+              title: 'International Network Summits',
+              desc: 'Expanding overseas lines to open secured job markets across fully certified channels.'
+        },
+            {
+              src: g7,
+              alt: 'Gallery Image 7',
+              tag: 'Innovation',
+              title: 'Research & Development Labs',
+              desc: 'Pioneering cutting-edge solutions through collaborative scientific exploration and technological advancement.'
         }
       ]
     };
